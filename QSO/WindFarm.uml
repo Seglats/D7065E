@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ArrowheadDSL="http://www.eclipse.org/papyrus/arrowhead" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_hce3gKxoEfCbhfXiknh77w" name="WindFarm">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_hjeQUKxoEfCbhfXiknh77w">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_hjwkMKxoEfCbhfXiknh77w">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_B4uOcKxrEfCbhfXiknh77w">
+      <importedPackage xmi:type="uml:Model" href="Arrowhead-5.0.uml#_LdWEYCTQEe-9KvpFZizseA"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Model" xmi:id="_ofjRoKxoEfCbhfXiknh77w" name="WindTurbine">
+      <packagedElement xmi:type="uml:Class" xmi:id="_v2Ah0KxoEfCbhfXiknh77w" name="Sensor-X">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_9EcSAKxoEfCbhfXiknh77w" name="sensorData" visibility="public" type="_wElJUKxoEfCbhfXiknh77w" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_VHV04KxqEfCbhfXiknh77w" name="sysMonitor" visibility="public" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_wElJUKxoEfCbhfXiknh77w" name="sensorData" visibility="private">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_c32ZQKxpEfCbhfXiknh77w" name="temp"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0KWr4KxoEfCbhfXiknh77w" name="sensorData-idd">
+        <generalization xmi:type="uml:Generalization" xmi:id="_7rN1QKxoEfCbhfXiknh77w" general="_wElJUKxoEfCbhfXiknh77w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2FqiAKxoEfCbhfXiknh77w" name="sensorData-iddImp">
+        <generalization xmi:type="uml:Generalization" xmi:id="_5GVdsKxoEfCbhfXiknh77w" general="_0KWr4KxoEfCbhfXiknh77w"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hfsjkKxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hfxcEKxoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/arrowhead#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Arrowhead_Profile/ArrowheadProfile_v5.0.profile.uml#_sX4gkDIREe6ldMRwfXEyUg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hjTRMKxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjVtcKxoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hjYJsKxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjYwwKxoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hjZX0KxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjZX0axoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hjZ-4KxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjZ-4axoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hjal8KxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjal8axoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hjal8qxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjbNAKxoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hjb0EKxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjb0EaxoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hjb0EqxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjb0E6xoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hjb0FKxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjb0FaxoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hjcbIKxoEfCbhfXiknh77w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjdCMKxoEfCbhfXiknh77w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <ArrowheadDSL:SysD xmi:id="_v2lJkKxoEfCbhfXiknh77w" base_Class="_v2Ah0KxoEfCbhfXiknh77w">
+    <MicrosystemName>Sensor-X</MicrosystemName>
+  </ArrowheadDSL:SysD>
+  <ArrowheadDSL:SD xmi:id="_wE0Z4KxoEfCbhfXiknh77w" base_Class="_wElJUKxoEfCbhfXiknh77w"/>
+  <ArrowheadDSL:IDD xmi:id="_0K9v4KxoEfCbhfXiknh77w" base_Class="_0KWr4KxoEfCbhfXiknh77w"/>
+  <ArrowheadDSL:IDD_Implementation xmi:id="_2GV3cKxoEfCbhfXiknh77w" base_Class="_2FqiAKxoEfCbhfXiknh77w"/>
+  <ArrowheadDSL:FullPort xmi:id="_9FKqwKxoEfCbhfXiknh77w" base_Port="_9EcSAKxoEfCbhfXiknh77w"/>
+  <ArrowheadDSL:FullPort xmi:id="_VH_VIKxqEfCbhfXiknh77w" base_Port="_VHV04KxqEfCbhfXiknh77w"/>
+</xmi:XMI>

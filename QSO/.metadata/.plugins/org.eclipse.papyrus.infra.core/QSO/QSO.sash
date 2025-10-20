@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmlns:di="http://www.eclipse.org/papyrus/0.7.0/sashdi">
+  <di:SashWindowsMngr>
+    <sashModel currentSelection="/0/@sashModel/@windows.0/@children.0" restoreActivePage="true">
+      <windows>
+        <children xsi:type="di:TabFolder" currentSelection="/0/@sashModel/@windows.0/@children.0/@children.6">
+          <children>
+            <emfPageIdentifier href="papyrus.welcome:dynamic#/"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_Wt2moKzhEfCnH4-PeyEGpw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_nxiKQK0GEfCnH4-PeyEGpw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_nDmQwK0HEfCnH4-PeyEGpw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_VLPgwK1XEfCnH4-PeyEGpw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_msiNQK1XEfCnH4-PeyEGpw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_6P--wK1XEfCnH4-PeyEGpw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/Arrowhead-5.0.notation#_MAmJQDHzEe-glMgvGnKGPg"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_RnPNgK1iEfCnH4-PeyEGpw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/Arrowhead-5.0.notation#_SU6PIIR1Ee-74fVJZfD0CQ"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/Arrowhead-5.0.notation#_xEUFsCdBEe-kO5sLBQPK1Q"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_Bd5JMK1TEfCnH4-PeyEGpw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_UZBlYK1yEfC_rKc4ubFhDA"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_MDHREK13EfC_rKc4ubFhDA"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/QSO.notation#_XtXj0K2aEfC_rKc4ubFhDA"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="platform:/resource/QSO/Arrowhead-5.0.notation#_r3d-cCciEe-kO5sLBQPK1Q"/>
+          </children>
+        </children>
+      </windows>
+    </sashModel>
+  </di:SashWindowsMngr>
+  <architecture:ArchitectureDescriptionPreferences>
+    <viewpointIds>arrowhead.vp</viewpointIds>
+  </architecture:ArchitectureDescriptionPreferences>
+</xmi:XMI>

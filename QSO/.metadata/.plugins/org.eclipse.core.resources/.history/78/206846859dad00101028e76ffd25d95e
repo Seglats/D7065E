@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ArrowheadDSL="http://www.eclipse.org/papyrus/arrowhead" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks">
+  <uml:Model xmi:id="_zP9D4KyOEfCnH4-PeyEGpw" name="QSO">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_zbm6QKyOEfCnH4-PeyEGpw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_zcC_IKyOEfCnH4-PeyEGpw">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_UqWoYKziEfCnH4-PeyEGpw">
+      <importedPackage xmi:type="uml:Package" href="Arrowhead-5.0.uml#_umxY8CcEEe-kO5sLBQPK1Q"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Uqd9IKziEfCnH4-PeyEGpw">
+      <importedPackage xmi:type="uml:Package" href="Arrowhead-5.0.uml#_YCAicHnNEe-Z2PivfTccsw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_UqfLQKziEfCnH4-PeyEGpw">
+      <importedPackage xmi:type="uml:Package" href="Arrowhead-5.0.uml#_E_s2ECdCEe-kO5sLBQPK1Q"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_UqfLQaziEfCnH4-PeyEGpw">
+      <importedPackage xmi:type="uml:Package" href="Arrowhead-5.0.uml#_MebZQKDXEe-ECrqMg-vLmA"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Model" xmi:id="_S_XfEK1XEfCnH4-PeyEGpw" name="AITraining">
+      <packagedElement xmi:type="uml:Class" xmi:id="_bFxlgK1XEfCnH4-PeyEGpw" name="AITrainingLocalCloud">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_BwW_8K1YEfCnH4-PeyEGpw" name="serviceOrchestration-Design">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_AQzcoCcDEe-kO5sLBQPK1Q"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_BwsXIK1YEfCnH4-PeyEGpw" name="authentication">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_TzZgEDMYEe-MpZcrQa1Yrg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_BwwokK1YEfCnH4-PeyEGpw" name="ServiceRegistry">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_30sNUCTQEe-9KvpFZizseA"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_BwxPoK1YEfCnH4-PeyEGpw" name="consumptionAuthorisation">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_CbCnJiclEe-kO5sLBQPK1Q"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ir8TYK1cEfCnH4-PeyEGpw" name="Property5">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_csJBkT0MEe-UlLZofXFl5A"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_z6fqEK1cEfCnH4-PeyEGpw" name="Property6">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_2jmY4CdBEe-kO5sLBQPK1Q"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_8_kj8K13EfC_rKc4ubFhDA" name="gateKeeper" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_9p7IgK13EfC_rKc4ubFhDA" name="gateTunnel" aggregation="composite"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_DhxxEK2WEfC_rKc4ubFhDA" name="Connector9">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Dh8wMK2WEfC_rKc4ubFhDA" partWithPort="_z6fqEK1cEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_IRJgMjHsEe-glMgvGnKGPg"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Dh_McK2WEfC_rKc4ubFhDA" role="_8_kj8K13EfC_rKc4ubFhDA"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_LQmd8K2WEfC_rKc4ubFhDA" name="Connector10">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_LQ0gYK2WEfC_rKc4ubFhDA" role="_9p7IgK13EfC_rKc4ubFhDA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_LQ3jsK2WEfC_rKc4ubFhDA" partWithPort="_ir8TYK1cEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#__LaTUD0mEe-UlLZofXFl5A"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_MgIzMK2WEfC_rKc4ubFhDA" name="Connector11">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_MgO50K2WEfC_rKc4ubFhDA" role="_9p7IgK13EfC_rKc4ubFhDA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_MgQH8K2WEfC_rKc4ubFhDA" partWithPort="_ir8TYK1cEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_RSfNcD0nEe-UlLZofXFl5A"/>
+          </end>
+        </ownedConnector>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_5oX-gKyOEfCnH4-PeyEGpw" name="factory">
+      <packagedElement xmi:type="uml:Class" xmi:id="__GOjIKziEfCnH4-PeyEGpw" name="Factory">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_mJ0eMK0JEfCnH4-PeyEGpw" name="machine1" type="_n-ekoK0HEfCnH4-PeyEGpw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_rYCPgK0JEfCnH4-PeyEGpw" name="machine2" type="_n-ekoK0HEfCnH4-PeyEGpw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_VqA6gK0iEfCnH4-PeyEGpw" name="ServiceRegistry">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_30sNUCTQEe-9KvpFZizseA"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_J37-IK0jEfCnH4-PeyEGpw" name="serviceOrchestration-Design">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_AQzcoCcDEe-kO5sLBQPK1Q"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_SVvbcK0kEfCnH4-PeyEGpw" name="authentication">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_TzZgEDMYEe-MpZcrQa1Yrg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jRuwwK1LEfCnH4-PeyEGpw" name="Property11">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_2jmY4CdBEe-kO5sLBQPK1Q"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_MoMA8K1fEfCnH4-PeyEGpw" name="Property21">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_csJBkT0MEe-UlLZofXFl5A"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_gdCx4K1nEfCnH4-PeyEGpw" name="Property26" type="_SI5wIK1iEfCnH4-PeyEGpw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_aW9dEK1qEfCnH4-PeyEGpw" name="Property29" type="_MNTfwK0zEfCnH4-PeyEGpw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_QHPEQK1rEfCnH4-PeyEGpw" name="Property34">
+          <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_tAVrACciEe-kO5sLBQPK1Q"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_SsmcoK1uEfCnH4-PeyEGpw" name="gateKeeper" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_v6esEK1uEfCnH4-PeyEGpw" name="gateTunnel" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lT3gcK1zEfC_rKc4ubFhDA" name="controller" type="_Zht9gK1yEfC_rKc4ubFhDA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_HC7moK11EfC_rKc4ubFhDA" name="qiInterface" type="_UjheoK1FEfCnH4-PeyEGpw"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_dyViIK1GEfCnH4-PeyEGpw" name="Connector8">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_dyxnAK1GEfCnH4-PeyEGpw" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_o2558G6_Ee-JReobqA7-4Q"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_dy0DQK1GEfCnH4-PeyEGpw" partWithPort="_mJ0eMK0JEfCnH4-PeyEGpw" role="_izHRMK1CEfCnH4-PeyEGpw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_e-E8gK1GEfCnH4-PeyEGpw" name="Connector9">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_e-iPgK1GEfCnH4-PeyEGpw" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_aPgaUCcDEe-kO5sLBQPK1Q"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_e-krwK1GEfCnH4-PeyEGpw" partWithPort="_mJ0eMK0JEfCnH4-PeyEGpw" role="_jNI6wK1CEfCnH4-PeyEGpw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_gK_bkK1GEfCnH4-PeyEGpw" name="Connector10">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_gLHXYK1GEfCnH4-PeyEGpw" partWithPort="_mJ0eMK0JEfCnH4-PeyEGpw" role="_lhBOQK0IEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_gLH-cK1GEfCnH4-PeyEGpw" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_megZUK1MEfCnH4-PeyEGpw" name="Connector12">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_me2-oK1MEfCnH4-PeyEGpw" partWithPort="_jRuwwK1LEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_IRI5IDHsEe-glMgvGnKGPg"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_me4z0K1MEfCnH4-PeyEGpw" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_sxOUkK1MEfCnH4-PeyEGpw" name="Connector13">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_sxqZcK1MEfCnH4-PeyEGpw" partWithPort="_jRuwwK1LEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_IRJgMTHsEe-glMgvGnKGPg"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_sxtcwK1MEfCnH4-PeyEGpw" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_aPgaUCcDEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_0QY_YK1NEfCnH4-PeyEGpw" name="Connector15">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_0Qu9oK1NEfCnH4-PeyEGpw" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_o2558G6_Ee-JReobqA7-4Q"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_0QxZ4K1NEfCnH4-PeyEGpw" partWithPort="_jRuwwK1LEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MQukcG9TEe-sN-reFm5zLA"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_x0sJQK1eEfCnH4-PeyEGpw" name="Connector19">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_x1EjwK1eEfCnH4-PeyEGpw" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_x1HnEK1eEfCnH4-PeyEGpw" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_Iy9q8CcDEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_0rkPwK1eEfCnH4-PeyEGpw" name="Connector20">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_0r-fcK1eEfCnH4-PeyEGpw" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_0sAUoK1eEfCnH4-PeyEGpw" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_kNpaYG7AEe-JReobqA7-4Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_9o7MUK1eEfCnH4-PeyEGpw" name="Connector22">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_9pWqIK1eEfCnH4-PeyEGpw" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_aPgaUCcDEe-kO5sLBQPK1Q"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_9pZGYK1eEfCnH4-PeyEGpw" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_kNqogG7AEe-JReobqA7-4Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_bCgVcK1fEfCnH4-PeyEGpw" name="Connector22">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_bC5XAK1fEfCnH4-PeyEGpw" partWithPort="_MoMA8K1fEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_ZENn4D0oEe-UlLZofXFl5A"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_bC7MMK1fEfCnH4-PeyEGpw" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_gkJZEK1fEfCnH4-PeyEGpw" name="BindingConnector23">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_gk2jsK1fEfCnH4-PeyEGpw" partWithPort="_MoMA8K1fEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_phsG8D0oEe-UlLZofXFl5A"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_gk4_8K1fEfCnH4-PeyEGpw" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_aPgaUCcDEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_jRkBkK1fEfCnH4-PeyEGpw" name="Connector24">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_jR5_0K1fEfCnH4-PeyEGpw" partWithPort="_MoMA8K1fEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_npRp8G9TEe-sN-reFm5zLA"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_jR7N8K1fEfCnH4-PeyEGpw" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_o2558G6_Ee-JReobqA7-4Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_phyNAK1gEfCnH4-PeyEGpw" name="Connector25">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_piRVMK1gEfCnH4-PeyEGpw" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_piTKYK1gEfCnH4-PeyEGpw" partWithPort="_rYCPgK0JEfCnH4-PeyEGpw" role="_lhBOQK0IEfCnH4-PeyEGpw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_rylK8K1gEfCnH4-PeyEGpw" name="Connector26">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_rysfsK1gEfCnH4-PeyEGpw" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_aPgaUCcDEe-kO5sLBQPK1Q"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_rytGwK1gEfCnH4-PeyEGpw" partWithPort="_rYCPgK0JEfCnH4-PeyEGpw" role="_jNI6wK1CEfCnH4-PeyEGpw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_uCZRcK1gEfCnH4-PeyEGpw" name="Connector27">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_uCqXMK1gEfCnH4-PeyEGpw" partWithPort="_rYCPgK0JEfCnH4-PeyEGpw" role="_izHRMK1CEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_uCrlUK1gEfCnH4-PeyEGpw" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_o2558G6_Ee-JReobqA7-4Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_AdeogK1oEfCnH4-PeyEGpw" name="Connector27">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Ad6GUK1oEfCnH4-PeyEGpw" partWithPort="_gdCx4K1nEfCnH4-PeyEGpw" role="_Fvw-UK1kEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Ad7UcK1oEfCnH4-PeyEGpw" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_DedGMK1oEfCnH4-PeyEGpw" name="Connector28">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_De0SkK1oEfCnH4-PeyEGpw" partWithPort="_gdCx4K1nEfCnH4-PeyEGpw" role="_D-AFwK1kEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_De2HwK1oEfCnH4-PeyEGpw" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_aPgaUCcDEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_F0cGIK1oEfCnH4-PeyEGpw" name="Connector29">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_F00goK1oEfCnH4-PeyEGpw" partWithPort="_gdCx4K1nEfCnH4-PeyEGpw" role="_AKG9YK1kEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_F01uwK1oEfCnH4-PeyEGpw" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_o2558G6_Ee-JReobqA7-4Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_LFE5UK1oEfCnH4-PeyEGpw" name="Connector27">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_LFdT0K1oEfCnH4-PeyEGpw" partWithPort="_mJ0eMK0JEfCnH4-PeyEGpw" role="_WOzocK0IEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_LFfJAK1oEfCnH4-PeyEGpw" partWithPort="_gdCx4K1nEfCnH4-PeyEGpw" role="_w_OuoK1jEfCnH4-PeyEGpw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_R0ohkK1oEfCnH4-PeyEGpw" name="BindingConnector28">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_R1QMoK1oEfCnH4-PeyEGpw" partWithPort="_rYCPgK0JEfCnH4-PeyEGpw" role="_WOzocK0IEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_R1SB0K1oEfCnH4-PeyEGpw" partWithPort="_gdCx4K1nEfCnH4-PeyEGpw" role="_w_OuoK1jEfCnH4-PeyEGpw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_1EpAoK1qEfCnH4-PeyEGpw" name="Connector30">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1E77kK1qEfCnH4-PeyEGpw" partWithPort="_aW9dEK1qEfCnH4-PeyEGpw" role="_1uOAkK1TEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1E9wwK1qEfCnH4-PeyEGpw" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_2kzy4K1qEfCnH4-PeyEGpw" name="Connector31">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_2lH78K1qEfCnH4-PeyEGpw" partWithPort="_aW9dEK1qEfCnH4-PeyEGpw" role="_4_SIsK1TEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_2lJxIK1qEfCnH4-PeyEGpw" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_aPgaUCcDEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_4j1rYK1qEfCnH4-PeyEGpw" name="Connector32">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_4kKbgK1qEfCnH4-PeyEGpw" partWithPort="_aW9dEK1qEfCnH4-PeyEGpw" role="_z5c3UK1TEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_4kLpoK1qEfCnH4-PeyEGpw" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_o2558G6_Ee-JReobqA7-4Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_AXWrAK1rEfCnH4-PeyEGpw" name="Connector33">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_AXz-AK1rEfCnH4-PeyEGpw" partWithPort="_aW9dEK1qEfCnH4-PeyEGpw" role="_yh4ncK1TEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_AX1MIK1rEfCnH4-PeyEGpw" partWithPort="_gdCx4K1nEfCnH4-PeyEGpw" role="_3rqxcK1jEfCnH4-PeyEGpw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_iVzGcK1rEfCnH4-PeyEGpw" name="Connector35">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_iWJrwK1rEfCnH4-PeyEGpw" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_V5ZvYCTXEe-9KvpFZizseA"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_iWLg8K1rEfCnH4-PeyEGpw" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_nP1-kK1rEfCnH4-PeyEGpw" name="Connector36">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_nQSqgK1rEfCnH4-PeyEGpw" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_F33asCciEe-kO5sLBQPK1Q"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_nQUfsK1rEfCnH4-PeyEGpw" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_pufLQK1rEfCnH4-PeyEGpw" name="Connector37">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_pu4M0K1rEfCnH4-PeyEGpw" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_7QdOYHAjEe-ApLYnIV6GpA"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_pu6pEK1rEfCnH4-PeyEGpw" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_uypBoK1rEfCnH4-PeyEGpw" name="Connector38">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_uzIJ0K1rEfCnH4-PeyEGpw" partWithPort="_aW9dEK1qEfCnH4-PeyEGpw" role="_DhSF0K1qEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_uzJ_AK1rEfCnH4-PeyEGpw" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_xlwpgK1rEfCnH4-PeyEGpw" name="Connector39">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_xmH14K1rEfCnH4-PeyEGpw" partWithPort="_mJ0eMK0JEfCnH4-PeyEGpw" role="_dEefwK0IEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_xmKSIK1rEfCnH4-PeyEGpw" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_1VIeQK1rEfCnH4-PeyEGpw" name="Connector40">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1VlKMK1rEfCnH4-PeyEGpw" partWithPort="_rYCPgK0JEfCnH4-PeyEGpw" role="_dEefwK0IEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1VnmcK1rEfCnH4-PeyEGpw" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_2LwkQK1rEfCnH4-PeyEGpw" name="Connector41">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_2L01sK1rEfCnH4-PeyEGpw" partWithPort="_gdCx4K1nEfCnH4-PeyEGpw" role="_Byr2AK1qEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_2L1cwK1rEfCnH4-PeyEGpw" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_3EimYK1rEfCnH4-PeyEGpw" name="Connector42">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_3EkbkK1rEfCnH4-PeyEGpw" partWithPort="_jRuwwK1LEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_t8qgQHAnEe-ApLYnIV6GpA"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_3Ekbka1rEfCnH4-PeyEGpw" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_4At6wK1rEfCnH4-PeyEGpw" name="Connector43">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_4BJYkK1rEfCnH4-PeyEGpw" partWithPort="_MoMA8K1fEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_c06AAHAlEe-ApLYnIV6GpA"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_4BL00K1rEfCnH4-PeyEGpw" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_Jh1BEK1sEfCnH4-PeyEGpw" name="Connector44">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_JiSUEK1sEfCnH4-PeyEGpw" partWithPort="_gdCx4K1nEfCnH4-PeyEGpw" role="_w_OuoK1jEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_JiUJQK1sEfCnH4-PeyEGpw" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_Lq28kHAqEe-ApLYnIV6GpA"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_WfT5QK1uEfCnH4-PeyEGpw" name="Connector46">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_WfuI8K1uEfCnH4-PeyEGpw" role="_SsmcoK1uEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Wfv-IK1uEfCnH4-PeyEGpw" partWithPort="_jRuwwK1LEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_IRJgMjHsEe-glMgvGnKGPg"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_09c2sK1uEfCnH4-PeyEGpw" name="Connector48">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_09xm0K1uEfCnH4-PeyEGpw" role="_v6esEK1uEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_09zcAK1uEfCnH4-PeyEGpw" partWithPort="_MoMA8K1fEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_RSfNcD0nEe-UlLZofXFl5A"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_8BuxwK1uEfCnH4-PeyEGpw" name="Connector49">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_8B7mEK1uEfCnH4-PeyEGpw" role="_v6esEK1uEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_8B8NIK1uEfCnH4-PeyEGpw" partWithPort="_MoMA8K1fEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#__LaTUD0mEe-UlLZofXFl5A"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_sZZqoK1xEfC_rKc4ubFhDA" name="Connector50">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_sZwP8K1xEfC_rKc4ubFhDA" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_o2558G6_Ee-JReobqA7-4Q"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_sZyFIK1xEfC_rKc4ubFhDA" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_iP99sHApEe-ApLYnIV6GpA"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_w08o4K1xEfC_rKc4ubFhDA" name="Connector51">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_w1HA8K1xEfC_rKc4ubFhDA" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_aPgaUCcDEe-kO5sLBQPK1Q"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_w1IPEK1xEfC_rKc4ubFhDA" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_rVigoCcjEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_0d5FgK1xEfC_rKc4ubFhDA" name="Connector52">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_0eYNsK1xEfC_rKc4ubFhDA" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_0ebRAK1xEfC_rKc4ubFhDA" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_2rFckCcjEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_wMOxIK1zEfC_rKc4ubFhDA" name="Connector54">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_wMtSQK1zEfC_rKc4ubFhDA" partWithPort="_lT3gcK1zEfC_rKc4ubFhDA" role="_328PgK1yEfC_rKc4ubFhDA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_wMw8oK1zEfC_rKc4ubFhDA" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_1wVS4K1zEfC_rKc4ubFhDA" name="Connector55">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1wz0AK1zEfC_rKc4ubFhDA" partWithPort="_lT3gcK1zEfC_rKc4ubFhDA" role="_eR7kMK1yEfC_rKc4ubFhDA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_1w2QQK1zEfC_rKc4ubFhDA" partWithPort="_gdCx4K1nEfCnH4-PeyEGpw" role="_FqPvsK1lEfCnH4-PeyEGpw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_InCTIK10EfC_rKc4ubFhDA" name="Connector56">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_IngNMK10EfC_rKc4ubFhDA" partWithPort="_lT3gcK1zEfC_rKc4ubFhDA" role="_f8Y64K1yEfC_rKc4ubFhDA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_InipcK10EfC_rKc4ubFhDA" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_OE7fMK10EfC_rKc4ubFhDA" name="Connector57">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_OFT5sK10EfC_rKc4ubFhDA" partWithPort="_lT3gcK1zEfC_rKc4ubFhDA" role="_hiL0AK1yEfC_rKc4ubFhDA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_OFVu4K10EfC_rKc4ubFhDA" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_aPgaUCcDEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_Sh2WcK10EfC_rKc4ubFhDA" name="Connector58">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_SiR0QK10EfC_rKc4ubFhDA" partWithPort="_lT3gcK1zEfC_rKc4ubFhDA" role="_i0Gu4K1yEfC_rKc4ubFhDA"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_SiWFsK10EfC_rKc4ubFhDA" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_o2558G6_Ee-JReobqA7-4Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_QGB-0K11EfC_rKc4ubFhDA" name="Connector60">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_QGaZUK11EfC_rKc4ubFhDA" partWithPort="_HC7moK11EfC_rKc4ubFhDA" role="_vBrYcK1FEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_QGc1kK11EfC_rKc4ubFhDA" partWithPort="_VqA6gK0iEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_MdsRoCTREe-9KvpFZizseA"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_S3KCoK11EfC_rKc4ubFhDA" name="Connector61">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_S3jrQK11EfC_rKc4ubFhDA" partWithPort="_HC7moK11EfC_rKc4ubFhDA" role="_r5W8oK1FEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_S3mukK11EfC_rKc4ubFhDA" partWithPort="_J37-IK0jEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_aPgaUCcDEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_VyADIK11EfC_rKc4ubFhDA" name="Connector62">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_VyVaUK11EfC_rKc4ubFhDA" partWithPort="_HC7moK11EfC_rKc4ubFhDA" role="_lkY-oK1FEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_VyXPgK11EfC_rKc4ubFhDA" partWithPort="_SVvbcK0kEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_o2558G6_Ee-JReobqA7-4Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_YJs6UK11EfC_rKc4ubFhDA" name="Connector63">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_YKNQoK11EfC_rKc4ubFhDA" partWithPort="_HC7moK11EfC_rKc4ubFhDA" role="_EkyKMK1qEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_YKQT8K11EfC_rKc4ubFhDA" partWithPort="_QHPEQK1rEfCnH4-PeyEGpw">
+            <role xmi:type="uml:Port" href="Arrowhead-5.0.uml#_bVZBUCckEe-kO5sLBQPK1Q"/>
+          </end>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_cQ9DkK11EfC_rKc4ubFhDA" name="Connector64">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_cReA8K11EfC_rKc4ubFhDA" partWithPort="_HC7moK11EfC_rKc4ubFhDA" role="_0YVUEK1FEfCnH4-PeyEGpw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_cRhrUK11EfC_rKc4ubFhDA" partWithPort="_gdCx4K1nEfCnH4-PeyEGpw" role="_w_OuoK1jEfCnH4-PeyEGpw"/>
+        </ownedConnector>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_eIvnQK1XEfCnH4-PeyEGpw" name="SoS">
+      <packagedElement xmi:type="uml:Class" xmi:id="_IMwDgK13EfC_rKc4ubFhDA" name="SoS">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_XrHO8K13EfC_rKc4ubFhDA" name="factory" type="__GOjIKziEfCnH4-PeyEGpw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_kC310K13EfC_rKc4ubFhDA" name="aITrainingLocalCloud" type="_bFxlgK1XEfCnH4-PeyEGpw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_lF6cEK0HEfCnH4-PeyEGpw" name="Other">
+      <packagedElement xmi:type="uml:Model" xmi:id="_l57d4K1SEfCnH4-PeyEGpw" name="Camera">
+        <packagedElement xmi:type="uml:Class" xmi:id="_r1zHwK1EEfCnH4-PeyEGpw" name="Camera">
+          <generalization xmi:type="uml:Generalization" xmi:id="_uwTKAK1EEfCnH4-PeyEGpw" general="_MNTfwK0zEfCnH4-PeyEGpw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MNTfwK0zEfCnH4-PeyEGpw" name="Camera">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_yh4ncK1TEfCnH4-PeyEGpw" name="transferBin" visibility="public" type="_Tg-g4K1jEfCnH4-PeyEGpw" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_z5c3UK1TEfCnH4-PeyEGpw" name="consumerAuthentication" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_dE6HsDMYEe-MpZcrQa1Yrg"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_1uOAkK1TEfCnH4-PeyEGpw" name="serviceDiscovery" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_6UnzcCTQEe-9KvpFZizseA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_4_SIsK1TEfCnH4-PeyEGpw" name="serviceOrchistration" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_e_uoECcDEe-kO5sLBQPK1Q"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_DhSF0K1qEfCnH4-PeyEGpw" name="SysMonitor" visibility="public" aggregation="composite">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_AIbWYCTXEe-9KvpFZizseA"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Model" xmi:id="_yV7ZoK1UEfCnH4-PeyEGpw" name="QualityInspector">
+        <packagedElement xmi:type="uml:Class" xmi:id="_UjheoK1FEfCnH4-PeyEGpw" name="qiInterface">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_lkY-oK1FEfCnH4-PeyEGpw" name="consumerAthentication" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_dE6HsDMYEe-MpZcrQa1Yrg"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_r5W8oK1FEfCnH4-PeyEGpw" name="serviceOrchistration" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_e_uoECcDEe-kO5sLBQPK1Q"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_vBrYcK1FEfCnH4-PeyEGpw" name="serviceDiscovery" visibility="package" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_6UnzcCTQEe-9KvpFZizseA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_0YVUEK1FEfCnH4-PeyEGpw" name="transferJSON" visibility="public" type="_657SoK1iEfCnH4-PeyEGpw" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_EkyKMK1qEfCnH4-PeyEGpw" name="SysMonitor" visibility="public" aggregation="composite">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_AIbWYCTXEe-9KvpFZizseA"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Node" xmi:id="_eHxBwK1VEfCnH4-PeyEGpw" name="Machine">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_5JDaQK0HEfCnH4-PeyEGpw" name="Sensor">
+          <generalization xmi:type="uml:Generalization" xmi:id="_RZk-4K0IEfCnH4-PeyEGpw" general="_n-ekoK0HEfCnH4-PeyEGpw"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_BDzN0K0JEfCnH4-PeyEGpw" name="sensorData" visibility="public" aggregation="composite"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_n-ekoK0HEfCnH4-PeyEGpw" name="Sensor">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_WOzocK0IEfCnH4-PeyEGpw" name="sensorData" visibility="public" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_dEefwK0IEfCnH4-PeyEGpw" name="sysMonitor" visibility="public" aggregation="composite">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_AIbWYCTXEe-9KvpFZizseA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_lhBOQK0IEfCnH4-PeyEGpw" name="serviceDiscovery" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_6UnzcCTQEe-9KvpFZizseA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_izHRMK1CEfCnH4-PeyEGpw" name="consumerAthentication" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_dE6HsDMYEe-MpZcrQa1Yrg"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_jNI6wK1CEfCnH4-PeyEGpw" name="serviceOrchistration" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_e_uoECcDEe-kO5sLBQPK1Q"/>
+          </ownedAttribute>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Model" xmi:id="_N_MIwK1iEfCnH4-PeyEGpw" name="BlobStorage">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SI5wIK1iEfCnH4-PeyEGpw" name="blobStorage">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_w_OuoK1jEfCnH4-PeyEGpw" name="tranfserJSON" visibility="public" aggregation="composite" isConjugated="true"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_3rqxcK1jEfCnH4-PeyEGpw" name="trasferBin" visibility="public" aggregation="composite" isConjugated="true"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_AKG9YK1kEfCnH4-PeyEGpw" name="consumerAuthentication" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_dE6HsDMYEe-MpZcrQa1Yrg"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_D-AFwK1kEfCnH4-PeyEGpw" name="serviceOrchestration" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_e_uoECcDEe-kO5sLBQPK1Q"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_Fvw-UK1kEfCnH4-PeyEGpw" name="ServiceDiscovery" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_6UnzcCTQEe-9KvpFZizseA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_sooFUK1kEfCnH4-PeyEGpw" name="transferJSON" visibility="public" type="_657SoK1iEfCnH4-PeyEGpw" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_toEJEK1kEfCnH4-PeyEGpw" name="transferBin" visibility="public" type="_Tg-g4K1jEfCnH4-PeyEGpw" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_FqPvsK1lEfCnH4-PeyEGpw" name="instructions" visibility="package" type="_SxboYK1lEfCnH4-PeyEGpw" aggregation="composite" isConjugated="true"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_Byr2AK1qEfCnH4-PeyEGpw" name="SysMonitor" visibility="public" aggregation="composite">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_AIbWYCTXEe-9KvpFZizseA"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_46zTgK1iEfCnH4-PeyEGpw" name="transferData"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_657SoK1iEfCnH4-PeyEGpw" name="transferJSON">
+          <generalization xmi:type="uml:Generalization" xmi:id="_V9YR4K1jEfCnH4-PeyEGpw" general="_46zTgK1iEfCnH4-PeyEGpw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Tg-g4K1jEfCnH4-PeyEGpw" name="transferBin">
+          <generalization xmi:type="uml:Generalization" xmi:id="_XY4mkK1jEfCnH4-PeyEGpw" general="_46zTgK1iEfCnH4-PeyEGpw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CWKIwK1lEfCnH4-PeyEGpw" name="instructionsHTTP">
+          <generalization xmi:type="uml:Generalization" xmi:id="_VcUhUK1lEfCnH4-PeyEGpw" general="_SxboYK1lEfCnH4-PeyEGpw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SxboYK1lEfCnH4-PeyEGpw" name="instructions"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_sa7yIK1lEfCnH4-PeyEGpw" name="impTransferJSON">
+          <generalization xmi:type="uml:Generalization" xmi:id="_4f6m8K1lEfCnH4-PeyEGpw" general="_657SoK1iEfCnH4-PeyEGpw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KXOmwK1mEfCnH4-PeyEGpw" name="imptransferBin">
+          <generalization xmi:type="uml:Generalization" xmi:id="_O4w4QK1mEfCnH4-PeyEGpw" general="_Tg-g4K1jEfCnH4-PeyEGpw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VNC5wK1mEfCnH4-PeyEGpw" name="impInstructionsHTTP">
+          <generalization xmi:type="uml:Generalization" xmi:id="_nMHHYK1mEfCnH4-PeyEGpw" general="_CWKIwK1lEfCnH4-PeyEGpw"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Model" xmi:id="_h_e7YK1vEfCnH4-PeyEGpw" name="controller">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Zht9gK1yEfC_rKc4ubFhDA" name="Controller">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_eR7kMK1yEfC_rKc4ubFhDA" name="instructions" visibility="public" type="_SxboYK1lEfCnH4-PeyEGpw" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_f8Y64K1yEfC_rKc4ubFhDA" name="serviceDiscovery" visibility="public" aggregation="composite">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_6UnzcCTQEe-9KvpFZizseA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_hiL0AK1yEfC_rKc4ubFhDA" name="serviceOrchiestration" visibility="public" aggregation="composite">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_e_uoECcDEe-kO5sLBQPK1Q"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_i0Gu4K1yEfC_rKc4ubFhDA" name="consumerAuthentication" visibility="public" aggregation="composite" isConjugated="true">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_dE6HsDMYEe-MpZcrQa1Yrg"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_328PgK1yEfC_rKc4ubFhDA" name="sysMonitor" visibility="public" aggregation="composite">
+            <type xmi:type="uml:Class" href="Arrowhead-5.0.uml#_AIbWYCTXEe-9KvpFZizseA"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zSyVcKyOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zS1_0KyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/arrowhead#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Arrowhead_Profile/ArrowheadProfile_v5.0.profile.uml#_sX4gkDIREe6ldMRwfXEyUg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zbdJQKyOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zbflgKyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zbgzoKyOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zbhasKyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zbiBwKyOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zbio0KyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zbio0ayOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zbio0qyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zbio06yOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zbjP4KyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zbjP4ayOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zbj28KyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zbj28ayOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zbj28qyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zbkeAKyOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zblFEKyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zblFEayOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zblFEqyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zblsIKyOEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zbmTMKyOEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oJ3PcK1uEfCnH4-PeyEGpw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oKKxcK1uEfCnH4-PeyEGpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ArrowheadDSL:LocalCloudDesign xmi:id="__Gu5cKziEfCnH4-PeyEGpw" base_Class="__GOjIKziEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:SysD xmi:id="_n-ucQK0HEfCnH4-PeyEGpw" base_Class="_n-ekoK0HEfCnH4-PeyEGpw">
+    <MicrosystemName>Sensor</MicrosystemName>
+  </ArrowheadDSL:SysD>
+  <ArrowheadDSL:SysDD xmi:id="_5JeRAK0HEfCnH4-PeyEGpw" base_Class="_5JDaQK0HEfCnH4-PeyEGpw">
+    <MicrosystemName>Sensor</MicrosystemName>
+  </ArrowheadDSL:SysDD>
+  <ArrowheadDSL:FullPort xmi:id="_WQr3wK0IEfCnH4-PeyEGpw" base_Port="_WOzocK0IEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_dFTmMK0IEfCnH4-PeyEGpw" base_Port="_dEefwK0IEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_lhPQsK0IEfCnH4-PeyEGpw" base_Port="_lhBOQK0IEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:ProxyPort xmi:id="_BFUQwK0JEfCnH4-PeyEGpw" base_Port="_BDzN0K0JEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:SysD xmi:id="_MNj-cK0zEfCnH4-PeyEGpw" base_Class="_MNTfwK0zEfCnH4-PeyEGpw">
+    <MicrosystemName>Camera</MicrosystemName>
+  </ArrowheadDSL:SysD>
+  <ArrowheadDSL:FullPort xmi:id="_i0fxQK1CEfCnH4-PeyEGpw" base_Port="_izHRMK1CEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_jNRdoK1CEfCnH4-PeyEGpw" base_Port="_jNI6wK1CEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:SysDD xmi:id="_r2gSYK1EEfCnH4-PeyEGpw" base_Class="_r1zHwK1EEfCnH4-PeyEGpw">
+    <MicrosystemName>Camera</MicrosystemName>
+  </ArrowheadDSL:SysDD>
+  <ArrowheadDSL:SysD xmi:id="_UkFfUK1FEfCnH4-PeyEGpw" base_Class="_UjheoK1FEfCnH4-PeyEGpw">
+    <MicrosystemName>qiInterface</MicrosystemName>
+  </ArrowheadDSL:SysD>
+  <ArrowheadDSL:FullPort xmi:id="_yiLiYK1TEfCnH4-PeyEGpw" base_Port="_yh4ncK1TEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_z6A4AK1TEfCnH4-PeyEGpw" base_Port="_z5c3UK1TEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_1vADsK1TEfCnH4-PeyEGpw" base_Port="_1uOAkK1TEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_5AH2MK1TEfCnH4-PeyEGpw" base_Port="_4_SIsK1TEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:LocalCloudDesign xmi:id="_bF9ywK1XEfCnH4-PeyEGpw" base_Class="_bFxlgK1XEfCnH4-PeyEGpw"/>
+  <Blocks:BindingConnector xmi:id="_glCw8K1fEfCnH4-PeyEGpw" base_Connector="_gkJZEK1fEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:SysD xmi:id="_SJNSIK1iEfCnH4-PeyEGpw" base_Class="_SI5wIK1iEfCnH4-PeyEGpw">
+    <MicrosystemName>blobStorage</MicrosystemName>
+  </ArrowheadDSL:SysD>
+  <ArrowheadDSL:SD xmi:id="_47JRwK1iEfCnH4-PeyEGpw" base_Class="_46zTgK1iEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:IDD xmi:id="_66TtIK1iEfCnH4-PeyEGpw" base_Class="_657SoK1iEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:IDD xmi:id="_ThdCAK1jEfCnH4-PeyEGpw" base_Class="_Tg-g4K1jEfCnH4-PeyEGpw" Port="8001" Protocol="OtherApplicationProtocol"/>
+  <ArrowheadDSL:FullPort xmi:id="_w_yvUK1jEfCnH4-PeyEGpw" base_Port="_w_OuoK1jEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_3r9FUK1jEfCnH4-PeyEGpw" base_Port="_3rqxcK1jEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_AKlegK1kEfCnH4-PeyEGpw" base_Port="_AKG9YK1kEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_D-em4K1kEfCnH4-PeyEGpw" base_Port="_D-AFwK1kEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_FwZQcK1kEfCnH4-PeyEGpw" base_Port="_Fvw-UK1kEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_so05oK1kEfCnH4-PeyEGpw" base_Port="_sooFUK1kEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_todxsK1kEfCnH4-PeyEGpw" base_Port="_toEJEK1kEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:IDD xmi:id="_CWlmkK1lEfCnH4-PeyEGpw" base_Class="_CWKIwK1lEfCnH4-PeyEGpw" Port="8002"/>
+  <ArrowheadDSL:FullPort xmi:id="_FqyiQK1lEfCnH4-PeyEGpw" base_Port="_FqPvsK1lEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:SD xmi:id="_Sx0C4K1lEfCnH4-PeyEGpw" base_Class="_SxboYK1lEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:IDD_Implementation xmi:id="_sbbhYK1lEfCnH4-PeyEGpw" base_Class="_sa7yIK1lEfCnH4-PeyEGpw" Port="8000"/>
+  <ArrowheadDSL:IDD_Implementation xmi:id="_KXo2cK1mEfCnH4-PeyEGpw" base_Class="_KXOmwK1mEfCnH4-PeyEGpw" Port="8001" Encoding="OtherEncoding"/>
+  <ArrowheadDSL:IDD_Implementation xmi:id="_VNgz0K1mEfCnH4-PeyEGpw" base_Class="_VNC5wK1mEfCnH4-PeyEGpw" Port="8002"/>
+  <Blocks:BindingConnector xmi:id="_R1T3AK1oEfCnH4-PeyEGpw" base_Connector="_R0ohkK1oEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_StTAMK1uEfCnH4-PeyEGpw" base_Port="_SsmcoK1uEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:FullPort xmi:id="_v7UZkK1uEfCnH4-PeyEGpw" base_Port="_v6esEK1uEfCnH4-PeyEGpw"/>
+  <ArrowheadDSL:SysD xmi:id="_ZiEi0K1yEfC_rKc4ubFhDA" base_Class="_Zht9gK1yEfC_rKc4ubFhDA">
+    <MicrosystemName>Controller</MicrosystemName>
+  </ArrowheadDSL:SysD>
+  <ArrowheadDSL:FullPort xmi:id="_eSI_kK1yEfC_rKc4ubFhDA" base_Port="_eR7kMK1yEfC_rKc4ubFhDA"/>
+  <ArrowheadDSL:FullPort xmi:id="_f83cAK1yEfC_rKc4ubFhDA" base_Port="_f8Y64K1yEfC_rKc4ubFhDA"/>
+  <ArrowheadDSL:FullPort xmi:id="_hiyQ8K1yEfC_rKc4ubFhDA" base_Port="_hiL0AK1yEfC_rKc4ubFhDA"/>
+  <ArrowheadDSL:FullPort xmi:id="_i0fJYK1yEfC_rKc4ubFhDA" base_Port="_i0Gu4K1yEfC_rKc4ubFhDA"/>
+  <ArrowheadDSL:FullPort xmi:id="_33rPUK1yEfC_rKc4ubFhDA" base_Port="_328PgK1yEfC_rKc4ubFhDA"/>
+  <ArrowheadDSL:System_of_LocalcloudsDesign xmi:id="_INBwUK13EfC_rKc4ubFhDA" base_Class="_IMwDgK13EfC_rKc4ubFhDA"/>
+  <ArrowheadDSL:FullPort xmi:id="_9AUx4K13EfC_rKc4ubFhDA" base_Port="_8_kj8K13EfC_rKc4ubFhDA"/>
+  <ArrowheadDSL:FullPort xmi:id="_9qyEIK13EfC_rKc4ubFhDA" base_Port="_9p7IgK13EfC_rKc4ubFhDA"/>
+</xmi:XMI>
