@@ -660,7 +660,7 @@
         </nestedClassifier>
       </packagedElement>
       <packagedElement xmi:type="uml:Model" xmi:id="_N_MIwK1iEfCnH4-PeyEGpw" name="BlobStorage">
-        <packagedElement xmi:type="uml:Class" xmi:id="_SI5wIK1iEfCnH4-PeyEGpw" name="blobStorage" visibility="package">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SI5wIK1iEfCnH4-PeyEGpw" name="blobStorage">
           <ownedAttribute xmi:type="uml:Port" xmi:id="_w_OuoK1jEfCnH4-PeyEGpw" name="tranfserJSON" visibility="public" aggregation="composite" isConjugated="true"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_3rqxcK1jEfCnH4-PeyEGpw" name="trasferBin" visibility="public" aggregation="composite" isConjugated="true"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_AKG9YK1kEfCnH4-PeyEGpw" name="consumerAuthentication" visibility="public" aggregation="composite" isConjugated="true">
@@ -680,13 +680,6 @@
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_OVlQ4K2hEfChlZ_Uui3Z-g" name="transferModel" visibility="public" type="_Tg-g4K1jEfCnH4-PeyEGpw" aggregation="composite" isConjugated="true"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_VVd0IK2hEfChlZ_Uui3Z-g" name="transferModel" visibility="public" type="_Tg-g4K1jEfCnH4-PeyEGpw" aggregation="composite"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_HXnTAK2-EfClhb9-Wx67Pw" name="Create" isStatic="true" isQuery="true"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_evBeUK2-EfClhb9-Wx67Pw" name="Read" isStatic="true"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_okcrUK2-EfClhb9-Wx67Pw" name="Update" isStatic="true"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_t61hMK2-EfClhb9-Wx67Pw" name="Delete" isStatic="true"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_6ufZ4K2-EfClhb9-Wx67Pw" name="streamRead," isStatic="true"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_9S-I0K2-EfClhb9-Wx67Pw" name="chunkedUpload" isStatic="true"/>
-          <ownedOperation xmi:type="uml:Operation" xmi:id="_gmN0AK2_EfClhb9-Wx67Pw" name="instruction"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_46zTgK1iEfCnH4-PeyEGpw" name="transferData"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_657SoK1iEfCnH4-PeyEGpw" name="transferJSON">
